@@ -1,0 +1,106 @@
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+body{
+  line-height: 1;
+}
+
+.main-content {
+  position: relative;
+  top: 5.3125rem; /* To offset for fixed header. */
+}
+
+.center {
+  text-align: center;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  color: white;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+}
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+body{
+  line-height: 1;
+}
+
+.main-content {
+  position: relative;
+  top: 5.3125rem; /* To offset for fixed header. */
+}
+
+.center {
+  text-align: center;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #4a4a4a;
+  color: white;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  display: block;
+  max-width: 100%;
+}
+@media only screen and (max-width: 760px) {
+  .main-content {
+    top: 2.5625rem;
+  }
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  border-bottom: solid 1px #c6c1c1;
+  background-color: white;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ol, ul{
+  list-style: none;
+}
+
+header .content {
+  display: flex;
+  align-items: center;
+  padding: 1.875rem;
+}
+a{
+  color: black;
+  text-decoration: none;
+}
+
+nav li {
+  padding-left: 3.5rem;
+}
+
+header .icon {
+  width: 1rem;
+  padding-left: .75rem;
+}
+
+header .mobile {
+      display:none;
+}
