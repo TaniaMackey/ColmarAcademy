@@ -127,9 +127,9 @@ a{
   display:flex;
   padding-right: 24px;
 }
-
-nav li {
-  padding-left: 3.5rem;
+.mobile ul{
+  display:flex;
+  justify-content: space-between;
 }
 
 header .icon {
@@ -459,22 +459,10 @@ footer nav, .desktop, .logo, .information .main-pic-box,
     padding: 0rem 1rem;
     align-items: center;
   }
-  #icon {
+  .icon {
     display: none;
   }
-  #icon-nav a {
+  .icon a {
     padding: 0rem 0.4rem;
-  }
-  p {
-    font-size: 16px;
-  }
-  h2 {
-    font-size: 1.75rem;
-  }
-  h3 {
-    font-size: 1.3rem;
-  }
-  h4 {
-    font-size: 1rem;
   }
 }
