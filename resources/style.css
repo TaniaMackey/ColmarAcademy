@@ -63,8 +63,6 @@ p {
   top: 5.3125rem; /* To offset for fixed header. */
 }
 
-
-
 .image-container {
   overflow: hidden;
 }
@@ -72,11 +70,6 @@ p {
 .image-container img {
   display: block;
   max-width: 100%;
-}
-@media only screen and (max-width: 760px) {
-  .main-content {
-    top: 2.5625rem;
-  }
 }
 
 /* Header */
@@ -325,34 +318,6 @@ footer span {
   padding-left: 1rem;
 }
 
-/* Tablet Settings for Smoother Transition */
-
-@media only screen and (max-width:825px) {
-
-  .landing-box img, .main-pic-box {
-    width: 40%;
-  }
-  .landing-box .side-text, .stacked-content-box {
-    width: 45%;
-  }
-  .course-box {
-    width: 45%;
-  }
-
-}
-
-/* Mobile Settings */
-
-@media only screen and (max-width:470px) {
-
-/* Do Not Display */
-
-footer nav, .desktop, .logo, .information .main-pic-box,
-.thesis .stacked-content-box, .thesis p, .thesis h3, .course-box img,
-.course-box p, #pc-pic {
-  display: none;
-}
-
 /* Mobile Header */
 
 .mobile {
@@ -457,4 +422,30 @@ h5 {
   margin: 1.5rem 0 0 0;
 }
 
+/* Mobile Settings */
+
+@media only screen and (max-width:470px) {
+
+footer nav, .desktop, .logo, .information .main-pic-box,
+.thesis .stacked-content-box, .thesis p, .thesis h3, .course-box img,
+.course-box p, #pc-pic {
+  display: none;
+ }
+}
+@media only screen and (max-width:825px) {
+
+  .landing-box img, .main-pic-box {
+    width: 40%;
+  }
+  .landing-box .side-text, .stacked-content-box {
+    width: 45%;
+  }
+  .course-box {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .main-content {
+    top: 2.5625rem;
+  }
 }
